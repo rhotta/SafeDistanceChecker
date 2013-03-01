@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71AC344316E0488A0013C2F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AC344216E0488A0013C2F5 /* UIKit.framework */; };
+		71AC344516E0488A0013C2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AC344416E0488A0013C2F5 /* Foundation.framework */; };
+		71AC344716E0488A0013C2F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AC344616E0488A0013C2F5 /* CoreGraphics.framework */; };
+		71AC344D16E0488A0013C2F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71AC344B16E0488A0013C2F5 /* InfoPlist.strings */; };
+		71AC344F16E0488A0013C2F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AC344E16E0488A0013C2F5 /* main.m */; };
+		71AC345316E0488A0013C2F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AC345216E0488A0013C2F5 /* AppDelegate.m */; };
+		71AC345516E0488A0013C2F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AC345416E0488A0013C2F5 /* Default.png */; };
+		71AC345716E0488A0013C2F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AC345616E0488A0013C2F5 /* Default@2x.png */; };
+		71AC345916E0488A0013C2F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AC345816E0488A0013C2F5 /* Default-568h@2x.png */; };
+		71AC345C16E0488A0013C2F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AC345B16E0488A0013C2F5 /* ViewController.m */; };
+		71AC345F16E0488A0013C2F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71AC345D16E0488A0013C2F5 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71AC343F16E0488A0013C2F5 /* SafeDistanceChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeDistanceChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AC344216E0488A0013C2F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71AC344416E0488A0013C2F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71AC344616E0488A0013C2F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71AC344A16E0488A0013C2F5 /* SafeDistanceChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SafeDistanceChecker-Info.plist"; sourceTree = "<group>"; };
+		71AC344C16E0488A0013C2F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71AC344E16E0488A0013C2F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71AC345016E0488A0013C2F5 /* SafeDistanceChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafeDistanceChecker-Prefix.pch"; sourceTree = "<group>"; };
+		71AC345116E0488A0013C2F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71AC345216E0488A0013C2F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71AC345416E0488A0013C2F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		71AC345616E0488A0013C2F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		71AC345816E0488A0013C2F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		71AC345A16E0488A0013C2F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71AC345B16E0488A0013C2F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71AC345E16E0488A0013C2F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71AC343C16E0488A0013C2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC344316E0488A0013C2F5 /* UIKit.framework in Frameworks */,
+				71AC344516E0488A0013C2F5 /* Foundation.framework in Frameworks */,
+				71AC344716E0488A0013C2F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71AC343616E0488A0013C2F5 = {
+			isa = PBXGroup;
+			children = (
+				71AC344816E0488A0013C2F5 /* SafeDistanceChecker */,
+				71AC344116E0488A0013C2F5 /* Frameworks */,
+				71AC344016E0488A0013C2F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71AC344016E0488A0013C2F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71AC343F16E0488A0013C2F5 /* SafeDistanceChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71AC344116E0488A0013C2F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71AC344216E0488A0013C2F5 /* UIKit.framework */,
+				71AC344416E0488A0013C2F5 /* Foundation.framework */,
+				71AC344616E0488A0013C2F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71AC344816E0488A0013C2F5 /* SafeDistanceChecker */ = {
+			isa = PBXGroup;
+			children = (
+				71AC345116E0488A0013C2F5 /* AppDelegate.h */,
+				71AC345216E0488A0013C2F5 /* AppDelegate.m */,
+				71AC345A16E0488A0013C2F5 /* ViewController.h */,
+				71AC345B16E0488A0013C2F5 /* ViewController.m */,
+				71AC345D16E0488A0013C2F5 /* ViewController.xib */,
+				71AC344916E0488A0013C2F5 /* Supporting Files */,
+			);
+			path = SafeDistanceChecker;
+			sourceTree = "<group>";
+		};
+		71AC344916E0488A0013C2F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71AC344A16E0488A0013C2F5 /* SafeDistanceChecker-Info.plist */,
+				71AC344B16E0488A0013C2F5 /* InfoPlist.strings */,
+				71AC344E16E0488A0013C2F5 /* main.m */,
+				71AC345016E0488A0013C2F5 /* SafeDistanceChecker-Prefix.pch */,
+				71AC345416E0488A0013C2F5 /* Default.png */,
+				71AC345616E0488A0013C2F5 /* Default@2x.png */,
+				71AC345816E0488A0013C2F5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71AC343E16E0488A0013C2F5 /* SafeDistanceChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AC346216E0488A0013C2F5 /* Build configuration list for PBXNativeTarget "SafeDistanceChecker" */;
+			buildPhases = (
+				71AC343B16E0488A0013C2F5 /* Sources */,
+				71AC343C16E0488A0013C2F5 /* Frameworks */,
+				71AC343D16E0488A0013C2F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeDistanceChecker;
+			productName = SafeDistanceChecker;
+			productReference = 71AC343F16E0488A0013C2F5 /* SafeDistanceChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71AC343716E0488A0013C2F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = RyusukeHotta;
+			};
+			buildConfigurationList = 71AC343A16E0488A0013C2F5 /* Build configuration list for PBXProject "SafeDistanceChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71AC343616E0488A0013C2F5;
+			productRefGroup = 71AC344016E0488A0013C2F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AC343E16E0488A0013C2F5 /* SafeDistanceChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71AC343D16E0488A0013C2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC344D16E0488A0013C2F5 /* InfoPlist.strings in Resources */,
+				71AC345516E0488A0013C2F5 /* Default.png in Resources */,
+				71AC345716E0488A0013C2F5 /* Default@2x.png in Resources */,
+				71AC345916E0488A0013C2F5 /* Default-568h@2x.png in Resources */,
+				71AC345F16E0488A0013C2F5 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71AC343B16E0488A0013C2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC344F16E0488A0013C2F5 /* main.m in Sources */,
+				71AC345316E0488A0013C2F5 /* AppDelegate.m in Sources */,
+				71AC345C16E0488A0013C2F5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71AC344B16E0488A0013C2F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AC344C16E0488A0013C2F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71AC345D16E0488A0013C2F5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AC345E16E0488A0013C2F5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71AC346016E0488A0013C2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71AC346116E0488A0013C2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71AC346316E0488A0013C2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeDistanceChecker/SafeDistanceChecker-Prefix.pch";
+				INFOPLIST_FILE = "SafeDistanceChecker/SafeDistanceChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71AC346416E0488A0013C2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeDistanceChecker/SafeDistanceChecker-Prefix.pch";
+				INFOPLIST_FILE = "SafeDistanceChecker/SafeDistanceChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71AC343A16E0488A0013C2F5 /* Build configuration list for PBXProject "SafeDistanceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AC346016E0488A0013C2F5 /* Debug */,
+				71AC346116E0488A0013C2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AC346216E0488A0013C2F5 /* Build configuration list for PBXNativeTarget "SafeDistanceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AC346316E0488A0013C2F5 /* Debug */,
+				71AC346416E0488A0013C2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71AC343716E0488A0013C2F5 /* Project object */;
+}
